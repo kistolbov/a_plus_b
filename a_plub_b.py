@@ -5,7 +5,6 @@ def a_plus_b(a, b) -> int:
 def main():
     a, b = map(int, input().split())
     print(a_plus_b(a, b))
-    return 0
 
 
 if __name__ == "__main__":
